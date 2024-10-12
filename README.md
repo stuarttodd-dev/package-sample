@@ -26,10 +26,21 @@ Welcome to the **Package Sample Repository**! This project aims to help develope
    cd package-sample
    ```
 
-3. **Set Up Docker**:
-   Ensure Docker Desktop is installed and running. Then, you can build and run the Docker container:
+2. **Navigate to repo**:
    ```
-   docker-compose up -d
+   cd package-sample
+   ```
+
+3. **Set Up Docker**:
+   Ensure Docker Desktop is installed and running. Build Docker container:
+   ```
+   docker-compose build
+   ```
+
+4. **Spin up Docker Container**:
+   Run the Docker container:
+   ```
+   docker-compose build
    ```
 
 5. **Install Dependencies**:
@@ -38,13 +49,13 @@ Welcome to the **Package Sample Repository**! This project aims to help develope
    docker exec php-composer-package composer install
    ```
 
-7. **Run the Standards Check**:
+6. **Run the Standards Check**:
    Execute the following command to check coding standards, static analysis, and run tests:
    ```
    docker exec php-composer-package composer standards:check
    ```
 
-   7. **Run Tests**:
+ 7. **Run Tests**:
    Execute the following command to check coding standards, static analysis, and run tests:
    ```
    docker exec php-composer-package composer tests
