@@ -1,0 +1,29 @@
+name: PHP CI
+
+on:
+    pull_request:
+        branches: [main]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v2
+
+            - name: Set up PHP
+              uses: shivammathur/setup-php@v2
+              with:
+                  php-version: '8.3'
+                  extensions: mbstring, xml, bcmath
+                  coverage: none
+
+            - name: Install dependencies
+              run: composer install
+
+            - name: Run standards check
+              run: composer run standards:check
+
+            - name: Run tests
+              run: composer run tests
