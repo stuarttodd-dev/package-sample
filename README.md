@@ -94,6 +94,23 @@ To create a new release for your package, you can tag your repository using the 
    ```
    git push origin v1.0.0
    ```
+
+## Usage Examples
+
+Once you've pulled down the package (either by adjusing your composer.json with a VCS path or adding it to packagist), it will be stored in your `vendor` folder for local access. 
+
+Here’s how you can use the `Greeter` class in your PHP project (but obviously it'd be whatever you've coded into your ``src`` directory:
+
+```
+use HalfShellStudios\PackageSample\Greeter;
+
+$greeter = new Greeter();
+echo $greeter->sayHello();   // Outputs: Well, hello there!
+echo $greeter->sayGoodbye(); // Outputs: Errr... Goodbye!
+echo $greeter->greet();      // Outputs: Well, hello there! Errr... Goodbye!
+```
+
+Thats it!
    
 ## Conclusion
 
