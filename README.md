@@ -33,13 +33,13 @@ Welcome to the **Package Sample Repository**! This project aims to help develope
 3. **Set Up Docker**:
    Ensure Docker Desktop is installed and running. Build Docker container:
    ```
-   docker-compose build
+   docker compose build
    ```
 
 4. **Spin up Docker Container**:
    Run the Docker container:
    ```
-   docker-compose up -d
+   docker compose up -d
    ```
 
 5. **Install Dependencies**:
