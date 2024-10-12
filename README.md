@@ -23,7 +23,6 @@ Welcome to the **Package Sample Repository**! This project aims to help develope
 1. **Clone the Repository**:
    ```
    git clone git@github.com:yourusername/package-sample.git
-   cd package-sample
    ```
 
 2. **Navigate to repo**:
