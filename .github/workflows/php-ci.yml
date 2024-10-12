@@ -1,4 +1,4 @@
-name: PHP CI
+name: PHP
 
 on:
     pull_request:
@@ -6,6 +6,7 @@ on:
 
 jobs:
     build:
+        name: Coding Standards And Tests
         runs-on: ubuntu-latest
 
         steps:
