@@ -16,13 +16,13 @@ Welcome to the **Package Sample Repository**! This project aims to help develope
 
 - **Editable Code**: You can modify the code in the `src` directory and add your own unit tests in the `tests` directory to extend functionality.
 
-- **GitHub Template**: The repository includes a template for pull requests that you can customize to fit your project needs.
+- **GitHub Template**: The repository includes a template for pull requests that you can customise to fit your project needs.
 
 ## Getting Started
 
 1. **Clone the Repository**:
    ```
-   git clone git@github.com:yourusername/package-sample.git
+   git clone git@github.com:stuarttodd-dev/package-sample.git
    ```
 
 2. **Navigate to repo**:
