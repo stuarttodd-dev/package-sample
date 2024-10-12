@@ -77,7 +77,7 @@ Adjust your composer.json file to include the VCS URL, e.g to include this:
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/yourusername/package-sample.git" 
+            "url": "https://github.com/stuarttodd-dev/package-sample.git" 
         }
     ]
 }
