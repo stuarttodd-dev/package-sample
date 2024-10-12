@@ -11,6 +11,7 @@ Welcome to the **Package Sample Repository**! This project aims to help develope
   - `phpmd`: For code analysis.
   - `phpstan`: For static analysis.
   - `rector`: For automated code upgrades and refactoring.
+  - `tests`: Run tests found within the `tests` directory.
   
 - **Automated Testing**: A GitHub Actions workflow is set up to automatically run tests whenever you push to the repository, ensuring your code remains reliable and up to standards.
 
@@ -49,13 +50,13 @@ Welcome to the **Package Sample Repository**! This project aims to help develope
    ```
 
 6. **Run the Standards Check**:
-   Execute the following command to check coding standards, static analysis, and run tests:
+   Execute the following command to check coding standards and static analysis:
    ```
    docker exec php-composer-package composer standards:check
    ```
 
  7. **Run Tests**:
-   Execute the following command to check coding standards, static analysis, and run tests:
+   Execute the following command to run tests:
    ```
    docker exec php-composer-package composer tests
    ```
