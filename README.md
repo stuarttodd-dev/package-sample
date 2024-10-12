@@ -39,7 +39,7 @@ Welcome to the **Package Sample Repository**! This project aims to help develope
 4. **Spin up Docker Container**:
    Run the Docker container:
    ```
-   docker-compose build
+   docker-compose up -d
    ```
 
 5. **Install Dependencies**:
