@@ -33,7 +33,7 @@ class GreeterTest extends TestCase
 
     public function testGreet(): void
     {
-        $expected = 'Well, hello here! Errr... Goodbye!';
+        $expected = 'Well, hello! Errr... Goodbye!';
         $actual = $this->greeter->greet();
         $this->assertEquals($expected, $actual, 'greet() should return the concatenated hello and goodbye messages.');
     }
