@@ -9,7 +9,6 @@ Link to the related issue (if applicable).
 - [ ] I have included any necessary tests.
 - [ ] I have updated the documentation accordingly.
 
-
 ### Type of Change
 - [ ] Bug fix
 - [ ] New feature
