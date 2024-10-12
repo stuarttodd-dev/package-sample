@@ -41,8 +41,13 @@ Welcome to the **Package Sample Repository**! This project aims to help develope
 7. **Run the Standards Check**:
    Execute the following command to check coding standards, static analysis, and run tests:
    ```
-   docker exec php-composer-package composer run standards:check
-   docker exec php-composer-package composer run tests
+   docker exec php-composer-package composer standards:check
+   ```
+
+   7. **Run Tests**:
+   Execute the following command to check coding standards, static analysis, and run tests:
+   ```
+   docker exec php-composer-package composer tests
    ```
 
 ## Sharing Your Package
@@ -55,13 +60,13 @@ Submit your package to [Packagist.org](https://packagist.org).
 
 ### Option 2. Add VCS Line in Composer
 
-Adjust your composer.json file to include the VCS URL:
+Adjust your composer.json file to include the VCS URL, e.g to include this:
 ```
 {
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/yourusername/package-sample.git"
+            "url": "https://github.com/yourusername/package-sample.git" 
         }
     ]
 }
