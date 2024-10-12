@@ -6,6 +6,7 @@ on:
 
 jobs:
     build:
+        name: Coding Standards And Tests
         runs-on: ubuntu-latest
 
         steps:
